@@ -50,13 +50,14 @@ async function main(): Promise<void> {
 
   let count = 0
 
+  // Klicks auf Text-Container kommen als sysEvent, nicht als textEvent
+  // (textEvent feuert nur bei Scroll-Gesten). Protobuf laesst Null-Werte
+  // weg, daher kommt CLICK_EVENT (0) als undefined an -> ?? 0.
   bridge.onEvenHubEvent((event: any) => {
-    const textEvent = event.textEvent
-    if (!textEvent || textEvent.containerID !== 1) return
+    if (!event.sysEvent) return
 
-    switch (textEvent.eventType) {
+    switch (event.sysEvent.eventType ?? 0) {
       case OsEventTypeList.CLICK_EVENT:
-      case undefined:
         count += 1
         bridge.textContainerUpgrade(
           new TextContainerUpgrade({

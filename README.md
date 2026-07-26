@@ -5,6 +5,8 @@ Begruessung und einen Tipp-Zaehler. Tippen auf das Buegel-Touchpad zaehlt
 hoch, Doppeltipp beendet das Plugin. Zweck: die komplette Even-Hub-Toolchain
 einmal durchlaufen (Simulator, Sideload, Packen).
 
+![Glasses Display im Simulator](docs/glasses-display.png)
+
 ## Voraussetzungen
 
 - Node 20 LTS oder 22+
