@@ -1,0 +1,15 @@
+[2026-07-26 09:40:34] [192.168.3.5] 200 GET /api/sessions?provider=claude 67.5ms
+[2026-07-26 09:40:42] [192.168.3.5] 200 GET /api/sessions?provider=claude 59.7ms
+[2026-07-26 09:40:52] [192.168.3.5] 200 GET /api/sessions?provider=claude 55.7ms
+[2026-07-26 09:41:02] [192.168.3.5] 200 GET /api/sessions?provider=claude 59.7ms
+[2026-07-26 09:41:12] [192.168.3.5] 200 GET /api/sessions?provider=claude 56.9ms
+[2026-07-26 09:41:21] [sse] Client connected session=232f70af-12b9-4f04-a92f-64ff6b9b901e (session clients: 1, total: 1)
+[2026-07-26 09:41:22] [192.168.3.5] 200 GET /api/sessions/232f70af-12b9-4f04-a92f-64ff6b9b901e/history?limit=10&provider=claude 17.8ms
+[2026-07-26 09:41:32] [192.168.3.5] 200 GET /api/sessions?provider=claude 58.0ms
+[2026-07-26 09:41:41] [192.168.3.5] 200 GET /api/sessions?provider=claude 58.5ms
+[2026-07-26 09:41:51] [192.168.3.5] 200 GET /api/sessions?provider=claude 58.5ms
+[2026-07-26 09:41:52] [sse] Client disconnected (total: 0)
+[2026-07-26 11:17:59] [192.168.3.5] 200 GET /api/sessions?provider=claude 74.1ms
+[2026-07-26 11:17:59] [sse] Client connected session=232f70af-12b9-4f04-a92f-64ff6b9b901e (session clients: 1, total: 1)
+[2026-07-26 11:18:02] [192.168.3.5] 200 GET /api/sessions/232f70af-12b9-4f04-a92f-64ff6b9b901e/history?limit=10&provider=claude 21.1ms
+[2026-07-26 11:18:09] [sse] Client disconnected (total: 0)

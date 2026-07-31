@@ -7,6 +7,13 @@ einmal durchlaufen (Simulator, Sideload, Packen).
 
 ![Glasses Display im Simulator](docs/glasses-display.png)
 
+## Bedienung auf der Brille
+
+| Eingabe | Wirkung |
+|---|---|
+| Einfachtipp | Zähler hochzählen |
+| Doppeltipp | Plugin beenden |
+
 ## Voraussetzungen
 
 - Node 20 LTS oder 22+
